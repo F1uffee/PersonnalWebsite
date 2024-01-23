@@ -1,9 +1,9 @@
 :root {
-    --color-primary: #f6aca2;
-    --color-secondary: #f49b90;
-    --color-tertiary: #f28b7d;
-    --color-quaternary: #f07a6a;
-    --color-quinary: #ee6352;
+    --color-primary: #731DD8;
+    --color-secondary: #48A9A6;
+    --color-tertiary: #E4DFDA;
+    --color-quaternary: #D4B483;
+    --color-quinary: #C1666B;
 }
 
 .header {
@@ -33,8 +33,11 @@
     text-align: center;
     margin: 0;
     color: var(--color-primary);
-    animation: shadows 1.2s ease-in infinite;
-    letter-spacing: 0.3rem;
+    letter-spacing: -0.3rem;
+}
+
+.name-shadows:hover {
+    animation: shadows 1.5s ease-in infinite;
 }
 
 @keyframes shadows {
