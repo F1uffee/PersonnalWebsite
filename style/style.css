@@ -1,1 +1,8 @@
 @import "components/head-name.css";
+@import "components/bento.css";
+
+
+
+body {
+    background-color: blanchedalmond;
+}

@@ -1,9 +1,9 @@
 :root {
-    --color-primary: #731DD8;
-    --color-secondary: #48A9A6;
-    --color-tertiary: #E4DFDA;
-    --color-quaternary: #D4B483;
-    --color-quinary: #C1666B;
+    --color-primary: #552CB7;
+    --color-secondary: #058CD7;
+    --color-tertiary: #00995E;
+    --color-quaternary: #FFC567;
+    --color-quinary: #FB7DA8;
 }
 
 .header {
@@ -14,7 +14,6 @@
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
-    background-color: white;
 }
 
 .Name-title {
@@ -32,13 +31,11 @@
     font-size: calc(2rem + 5vw);
     text-align: center;
     margin: 0;
+    animation: shadows 1.5s ease-in infinite;
     color: var(--color-primary);
     letter-spacing: -0.3rem;
 }
 
-.name-shadows:hover {
-    animation: shadows 1.5s ease-in infinite;
-}
 
 @keyframes shadows {
     0% {

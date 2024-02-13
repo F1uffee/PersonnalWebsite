@@ -1,0 +1,37 @@
+body {
+    margin: 30px;
+    padding: 0;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    font-family: "roboto", sans-serif;
+}
+
+
+.container {
+    margin: 0 auto;
+}
+
+.item {
+    width: 150px;
+    height: 150px;
+    padding: 1em;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(159, 117, 194);
+}
+
+.profile-picture{
+    background-image: url("/images/ANTOINE\ PHOTO.jpg");
+    object-fit: cover;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+.profile {
+    display: flex;
+    gap: 5px;
+}
+
+.profile-description{
+    flex-grow: 1;
+}
