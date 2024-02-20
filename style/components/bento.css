@@ -11,13 +11,39 @@ body {
     margin: 0 auto;
 }
 
+.items-container{
+    display: flex;
+    gap: 15px;
+}
+
 .item {
     width: 150px;
     height: 150px;
     padding: 1em;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: rgb(159, 117, 194);
+}
+.hobbies {
+    height: 300px;
+    flex-grow: 1;
+}
+
+.projects {
+    height: 300px;
+    flex-grow: 1;
+}
+
+.bio{
+    flex-grow: 1;
+}
+
+.socials {
+    flex-grow: 1;
+}
+
+.side {
+    height: 600px;
 }
 
 .profile-picture{
@@ -27,11 +53,10 @@ body {
     border-radius: 50%;
 }
 
-.profile {
+.cards {
+    margin-top: 15px;
+    margin-bottom: 15px;
     display: flex;
-    gap: 5px;
+    gap: 15px;
 }
 
-.profile-description{
-    flex-grow: 1;
-}
