@@ -1,19 +1,30 @@
 body {
-    margin: 30px;
-    padding: 0;
+    max-width: 1200px;
+    margin: auto;
+    padding: 16px;
     line-height: 1.6;
     word-spacing: 1.4px;
     font-family: "roboto", sans-serif;
 }
 
-
-.container {
-    margin: 0 auto;
-}
-
-.items-container{
+main {
     display: flex;
     gap: 15px;
+}
+
+.cards-container {
+    flex: 1;
+}
+
+.bar{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-height: 695px;
+    min-width: 150px;
+    padding: 1em;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(109, 157, 221);
 }
 
 .item {
